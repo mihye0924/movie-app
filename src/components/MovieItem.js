@@ -1,6 +1,6 @@
 import { Component } from "../core/heropy";
 
-export default class Moiveitem extends Component{
+export default class MoiveItem extends Component{
   constructor(props){
     super({
       props,
