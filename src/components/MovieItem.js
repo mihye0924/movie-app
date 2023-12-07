@@ -1,18 +1,19 @@
-import { Component } from "../core/heropy";
+import { Component } from '../core/heropy'
 
-export default class MoiveItem extends Component{
-  constructor(props){
+export default class MovieItem extends Component {
+  constructor(props) {
     super({
       props,
       tagName: 'a'
     })
   }
-  render(){
+  render() {
     const { movie } = this.props
-    this.el.setAttribute('href',`#/movie?id=${movie.imdbID}`);
-    this.el.classList.add('movie');
+
+    this.el.setAttribute('href', `#/movie?id=${movie.imdbID}`)
+    this.el.classList.add('movie')
     this.el.style.backgroundImage = `url(${movie.Poster})`
-    this.el.innerHTML =  /* html */ `
+    this.el.innerHTML = /* html */ `
       <div class="info">
         <div class="year">
           ${movie.Year}
