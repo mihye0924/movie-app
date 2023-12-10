@@ -24,10 +24,10 @@ interface DetailedMovie {
   Country: string
   Awards: string
   Poster: string
-  Ratings: [{
+  Ratings: {
     Source: string
     Value: string
-  }]
+  }[]
   Metascore: string
   imdbRating: string
   imdbVotes: string
