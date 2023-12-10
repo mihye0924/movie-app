@@ -1,6 +1,5 @@
 import { Store } from '../core/heropy'
 
-
 export interface SimpleMovie {
   Title: string
   Year: string
@@ -8,7 +7,6 @@ export interface SimpleMovie {
   Type: string
   Poster: string
 }
-
 interface DetailedMovie {
   Title: string
   Year: string
@@ -38,18 +36,16 @@ interface DetailedMovie {
   Production: string
   Website: string
   Response: string
-} 
-
+}
 interface State {
   searchText: string
   page: number
   pageMax: number
   movies: SimpleMovie[]
   movie: DetailedMovie
-  loading: boolean
   message: string
+  loading: boolean
 }
-
 const store = new Store<State>({
   searchText: '',
   page: 1,
@@ -61,7 +57,6 @@ const store = new Store<State>({
 })
 
 export default store
-
 export const searchMovies = async (page: number) => {
   store.state.loading = true
   store.state.page = page
@@ -87,7 +82,7 @@ export const searchMovies = async (page: number) => {
       store.state.pageMax = Math.ceil(Number(totalResults) / 10)
     } else {
       store.state.message = Error
-      store.state.pageMax = 1
+      store.state.pageMax = 1 // 버그 수정을 위해 새롭게 추가된 코드!
     }
   } catch (error) {
     console.log('searchMovies error:', error)
@@ -106,6 +101,6 @@ export const getMovieDetails = async (id: string) => {
     })
     store.state.movie = await res.json()
   } catch (error) {
-    console.log('getMovieDetails error:', error)
+    console.log('searchMovieDetails error:', error)
   }
 }

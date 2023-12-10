@@ -6,7 +6,7 @@ interface Props {
   movie: SimpleMovie
 }
 
-export default class MovieItem extends Component { 
+export default class MovieItem extends Component {
   public props!: Props
   constructor(props: Props) {
     super({

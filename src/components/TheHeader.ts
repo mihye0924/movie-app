@@ -1,7 +1,7 @@
 import { Component } from '../core/heropy'
 
 interface State {
-  [key: string] : unknown
+  [key: string]: unknown
   menus: {
     name: string
     href: string
@@ -9,7 +9,7 @@ interface State {
 }
 
 export default class TheHeader extends Component {
-  public state!: State //초기화(할당)이/가 된것처럼 선언
+  public state!: State
   constructor() {
     super({
       tagName: 'header',
