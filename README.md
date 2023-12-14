@@ -135,5 +135,4 @@ APIKEY=<MY_OMDb_API_KEY>
 
 제품 서버(Vercel 서비스)에서 사용할 환경변수를 지정합니다.  
 Vercel 서비스의 프로젝트 __'Settings / Environment Variables'__ 옵션에서 다음과 같이 환경변수를 지정합니다.
-
-![Screenshot](/screenshots/screenshot_vercel_environment.JPG)
+ 
