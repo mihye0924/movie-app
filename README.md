@@ -1,12 +1,14 @@
-# Movie App (JavaScript ver.)
+# Movie App (TypeScript ver.)
 
 OMDb API를 활용해 VanillaJS 영화 검색 애플리케이션을 만들어봅니다.  
 이 프로젝트는 [JS 버전](https://github.com/ParkYoungWoong/vanillajs-movie-app/tree/js-only)과 [TS 버전](https://github.com/ParkYoungWoong/vanillajs-movie-app/tree/main)으로 나누어져 있습니다.  
 기본 버전은 TS입니다.
 
-[DEMO](https://vanilla-movie-5znvu8s4t-parkyoungwoong.vercel.app/#/)
+[DEMO](https://vanilla-movie-5znvu8s4t-parkyoungwoong.vercel.app/#/) 
 
-![Screenshot](/screenshots/screenshot_demo.JPG)
+![image](https://github.com/mihye0924/movie-app/assets/71968785/290173bd-2ac9-412f-83f9-f1ba31f7062c)
+
+------------------------
 
 ### 프로젝트 시작하기
 
@@ -14,6 +16,8 @@ OMDb API를 활용해 VanillaJS 영화 검색 애플리케이션을 만들어봅
 $ npm i
 $ npm run vercel
 ```
+
+------------------------
 
 ### Reset.css
 
@@ -23,6 +27,8 @@ $ npm run vercel
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
 ```
 
+------------------------
+
 ### Google Fonts
 
 [Oswald](https://fonts.google.com/specimen/Oswald?query=oswa), [Roboto](https://fonts.google.com/specimen/Roboto?query=robo) 폰트를 사용합니다.
@@ -30,6 +36,8 @@ $ npm run vercel
 ```html
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
 ```
+
+------------------------
 
 ### Headline.js HTML 
 
@@ -45,6 +53,8 @@ $ npm run vercel
   If you find this service useful, please consider making a one-time donation or become a patron.
 </p>
 ```
+
+------------------------
 
 ## Vercel Hosting
 
@@ -74,6 +84,8 @@ __/package.json__
 }
 ```
 
+------------------------
+
 ### Vercel 개발 서버 실행
 
 Vercel 구성 이후에는 `npm run dev`가 아닌 `npm run vercel`로 개발 서버를 실행해야 합니다!
@@ -81,6 +93,8 @@ Vercel 구성 이후에는 `npm run dev`가 아닌 `npm run vercel`로 개발 �
 ```bash
 $ npm run vercel
 ```
+
+------------------------
 
 ## Vercel Serverless Functions
 
@@ -106,6 +120,8 @@ export default async function handler(request, response) {
     .json(json)
 }
 ```
+
+------------------------
 
 ### 환경변수
 
