@@ -150,8 +150,8 @@ Vercel 서비스의 프로젝트 __'Settings / Environment Variables'__ 옵션�
 
 #### Development
 <img src="https://github.com/mihye0924/react_context_app/assets/71968785/d9784930-b259-4f5f-a941-568068f1d73d" width="30"> 
-<img src="https://github.com/mihye0924/react_context_app/assets/71968785/4e1c1159-2dc7-421f-b247-f2d23a86c52f" width="30">
-<img src="https://github.com/mihye0924/PERIPERA/assets/71968785/f71d27fe-0839-43c4-bafe-7f9fe7474639" width="30">
+<img src="https://github.com/mihye0924/react_context_app/assets/71968785/4e1c1159-2dc7-421f-b247-f2d23a86c52f" width="30"> 
+<img src="https://github.com/mihye0924/movie-app/assets/71968785/3268ef6d-a93e-4c32-beee-614e57e0712a" width="30">
 
  
 #### Deploy 
