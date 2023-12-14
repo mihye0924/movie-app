@@ -136,3 +136,24 @@ APIKEY=<MY_OMDb_API_KEY>
 제품 서버(Vercel 서비스)에서 사용할 환경변수를 지정합니다.  
 Vercel 서비스의 프로젝트 __'Settings / Environment Variables'__ 옵션에서 다음과 같이 환경변수를 지정합니다.
  
+
+------------
+## Stacks
+
+#### Environment   
+<img src="https://github.com/mihye0924/react_context_app/assets/71968785/6e825b86-c259-48c2-a272-4286e74d9798" width="30">
+<img src="https://github.com/mihye0924/react_context_app/assets/71968785/557f00bf-2f5f-4bc9-9d63-10565250d6f9" width="30">
+<img src="https://github.com/mihye0924/react_context_app/assets/71968785/64f67e8b-759f-4063-a3bc-29dc3918e44b" width="30">
+
+#### Config
+<img src="https://github.com/mihye0924/react_context_app/assets/71968785/64725c2b-af8d-4891-9ef1-f1068d1fd019" width="30">
+
+#### Development
+<img src="https://github.com/mihye0924/react_context_app/assets/71968785/d9784930-b259-4f5f-a941-568068f1d73d" width="30"> 
+<img src="https://github.com/mihye0924/react_context_app/assets/71968785/4e1c1159-2dc7-421f-b247-f2d23a86c52f" width="30">
+<img src="https://github.com/mihye0924/PERIPERA/assets/71968785/f71d27fe-0839-43c4-bafe-7f9fe7474639" width="30">
+
+ 
+#### Deploy 
+<img src="https://github.com/mihye0924/lotto_6_deploy/assets/71968785/085a4946-cf48-4255-a185-1fc68851795e" width="30">
+
