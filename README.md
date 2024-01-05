@@ -141,19 +141,5 @@ Vercel 서비스의 프로젝트 __'Settings / Environment Variables'__ 옵션�
 ## Stacks
 
 #### Environment   
-<img src="https://github.com/mihye0924/react_context_app/assets/71968785/6e825b86-c259-48c2-a272-4286e74d9798" width="30">
-<img src="https://github.com/mihye0924/react_context_app/assets/71968785/557f00bf-2f5f-4bc9-9d63-10565250d6f9" width="30">
-<img src="https://github.com/mihye0924/react_context_app/assets/71968785/64f67e8b-759f-4063-a3bc-29dc3918e44b" width="30">
-
-#### Config
-<img src="https://github.com/mihye0924/react_context_app/assets/71968785/64725c2b-af8d-4891-9ef1-f1068d1fd019" width="30">
-
-#### Development
-<img src="https://github.com/mihye0924/react_context_app/assets/71968785/d9784930-b259-4f5f-a941-568068f1d73d" width="30">  
-<img src="https://github.com/mihye0924/movie-app/assets/71968785/3268ef6d-a93e-4c32-beee-614e57e0712a" width="30">
-<img src="https://github.com/mihye0924/PERIPERA/assets/71968785/f71d27fe-0839-43c4-bafe-7f9fe7474639" width="30">
-
+<img style="display:inline-block;" alt="Static Badge" src="https://img.shields.io/badge/React-61DAFB?logo=React&logoColor=white"><img style="display:inline-block;" alt="Static Badge" src="https://img.shields.io/badge/CSS3-1572B6?logo=CSS3&logoColor=white"><img style="display:inline-block;" alt="Static Badge" src="https://img.shields.io/badge/TYPESCRIPT-3178C6?logo=TYPESCRIPT&logoColor=white">
  
-#### Deploy 
-<img src="https://github.com/mihye0924/lotto_6_deploy/assets/71968785/085a4946-cf48-4255-a185-1fc68851795e" width="30">
-
