@@ -141,5 +141,5 @@ Vercel 서비스의 프로젝트 __'Settings / Environment Variables'__ 옵션�
 ## Stacks
 
 #### Environment   
-<img style="display:inline-block;" alt="Static Badge" src="https://img.shields.io/badge/React-61DAFB?logo=React&logoColor=white"><img style="display:inline-block;" alt="Static Badge" src="https://img.shields.io/badge/CSS3-1572B6?logo=CSS3&logoColor=white"><img style="display:inline-block;" alt="Static Badge" src="https://img.shields.io/badge/TYPESCRIPT-3178C6?logo=TYPESCRIPT&logoColor=white">
+<img style="display:inline-block;" alt="Static Badge" src="https://img.shields.io/badge/React-61DAFB?logo=React&logoColor=white"> <img style="display:inline-block;" alt="Static Badge" src="https://img.shields.io/badge/CSS3-1572B6?logo=CSS3&logoColor=white"> <img style="display:inline-block;" alt="Static Badge" src="https://img.shields.io/badge/TYPESCRIPT-3178C6?logo=TYPESCRIPT&logoColor=white">
  
